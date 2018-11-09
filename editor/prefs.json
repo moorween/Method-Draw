@@ -1,0 +1,106 @@
+{
+    "dimensions": [
+        {
+            "title": "A3",
+            "width": 842,
+            "height": 1191
+        },
+        {
+            "title": "A4",
+            "width": 595,
+            "height": 842
+        },
+        {
+            "title": "A5",
+            "width": 420,
+            "height": 595
+        }
+    ],
+    "templates": [
+        {
+            "title": "Company Name",
+            "template": "{{CompanyName}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Company Logo",
+            "template": "{{CompanyLogo}}",
+            "type":"image_template"
+        },
+        {
+            "title": "Company Site Address",
+            "template": "{{SiteAddress}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Company Phone Number",
+            "template": "{{OfficePhoneNumber}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Induction Course Title",
+            "template": "{{InductionCourseTitle}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Induction Reference",
+            "template": "{{InductionReference}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inducted On",
+            "template": "{{InductedOn}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Expires On",
+            "template": "{{ExpiresOn}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inductee Name",
+            "template": "{{InducteeFullName}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inductee Email",
+            "template": "{{InducteeEmail}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inductee Company",
+            "template": "{{InducteeCompany}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inductee Address",
+            "template": "{{InducteeAddress}}",
+            "type":"text_template"
+        },
+        {
+            "title": "Inductee Photo",
+            "template": "{{InducteePhoto}}",
+            "type":"image_template"
+        },
+        {
+            "title": "Inductee Qr Code",
+            "template": "{{QrCode}}",
+             "type":"image_template"
+        }
+    ],
+    "domainMatch": [
+        {
+            "host": "www.inductforwork.co.uk",
+            "baseUrl": "https://api-v1.inductforwork.co.uk/v1"
+        },
+        {
+            "host": "www.inductforwork.co.au",
+            "baseUrl": "https://api-v1.inductforwork.com.au/v1"
+        },
+        {
+            "host": "default",
+            "baseUrl": "https://api-v1.inductforwork.com.au/v1"
+        }
+    ]
+
+}
