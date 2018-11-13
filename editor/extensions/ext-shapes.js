@@ -140,7 +140,6 @@ methodDraw.addExtension("shapes", function() {
     
   }
 
-  
   return {
     svgicons: "extensions/ext-shapes.xml",
     buttons: [{
@@ -169,7 +168,6 @@ methodDraw.addExtension("shapes", function() {
       // Do mouseup on parent element rather than each button
       $('#shape_buttons').mouseup(function(evt) {
         var btn = $(evt.target).closest('div.tool_button');
-        
         if(!btn.length) return;
         
         var copy = btn.children().clone().attr({width: 24, height: 24});
@@ -228,7 +226,6 @@ methodDraw.addExtension("shapes", function() {
     mouseDown: function(opts) {
       var mode = canv.getMode();
       if(mode !== mode_id) return;
-      
       var e = opts.event;
       var x = start_x = opts.start_x;
       var y = start_y = opts.start_y;
@@ -339,7 +336,6 @@ methodDraw.addExtension("shapes", function() {
     mouseUp: function(opts) {
       var mode = canv.getMode();
       if(mode !== mode_id) return;
-      
       if(opts.mouse_x == start_x && opts.mouse_y == start_y) {
         return {
           keep: false,

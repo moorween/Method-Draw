@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <g id="tool_templates">
-    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <ellipse stroke="#000" ry="70.499999" rx="69.999999" id="svg_1" cy="199.977278" cx="290" stroke-width="1.5" fill="#2F2F2C"/>
-        <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="92" id="svg_2" y="224.977273" x="228.609376" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">{{}}</text>
+    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2F2F2C">
+        <ellipse ry="10" rx="10" cy="12" cx="12" stroke-width="0.5" fill="#ffffff00"/>
+        <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="13" y="16" x="4" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">{{}}</text>
     </svg>
   </g>
 </svg>
